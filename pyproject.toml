@@ -1,0 +1,18 @@
+[project]
+name = "projeto-aula"
+version = "0.1.0"
+description = "Projeto realizado na aula de Trilha Python"
+authors = [
+    {name = "Lucas Vieira Felisberto",email = "106781231+lucasvieirafelisberto@users.noreply.github.com."}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "projeto_aula", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
