@@ -8,7 +8,7 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "pandas (>=3.0.6,<4.0.0)"
+    "requests (>=2.34.2,<3.0.0)"
 ]
 
 [tool.poetry]
@@ -17,3 +17,6 @@ packages = [{include = "projeto_aula", from = "src"}]
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+projeto_aula = "projeto_aula.main:main"
